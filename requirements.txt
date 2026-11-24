@@ -8,5 +8,6 @@ psycopg==3.3.9
 psycopg-binary==3.3.9
 Pygments==2.21.0
 pytest==9.2.0
+python-dotenv==1.2.4
 requests==2.34.2
 urllib3==2.8.0
