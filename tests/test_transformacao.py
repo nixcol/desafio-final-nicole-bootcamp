@@ -116,7 +116,7 @@ def test_itens_ganham_pedido_id_e_linha():
 def test_transformar_imprime_os_contadores(capsys):
     clientes = [
         {"id": 1, "email": None, "estado": "rs"},
-        {"id": 2, "email": "a@b.com", "sestado": "SP"},
+        {"id": 2, "email": "a@b.com", "estado": "SP"},
     ]
     pedidos = [
         pedido_exemplo(id=1, data_pedido="19/02/2026", valor_total="25,00"),
